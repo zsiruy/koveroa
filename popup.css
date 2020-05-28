@@ -1,0 +1,40 @@
+/* Code tidied up by ScrapBook */
+.t4527 { background-color: rgba(0, 0, 0, 0.7); display: none; width: 100%; height: 100%; z-index: 333; position: fixed; top: 0px; left: 0px; }
+.p5213 { position: fixed; top: 10%; left: 50%; margin-left: -425px; padding: 20px 20px 90px; width: 850px; z-index: 3333; background: transparent linear-gradient(135deg, rgb(60, 114, 181) 0%, rgb(123, 159, 204) 100%) repeat scroll 0% 0%; border: 5px solid rgb(221, 221, 221); box-sizing: border-box; height: auto; }
+.y3498 { margin: 0px 0px 25px; color: rgb(255, 255, 255); text-align: center; font-size: 28px; line-height: 25px; font-weight: bold; }
+.r6934 { position: absolute; width: 30px; height: 40px; right: 10px; top: 10px; line-height: 40px; color: rgb(222, 69, 92); font-size: 40px; cursor: pointer; text-shadow: 1px 1px 2px black, 0px 0px 1.5rem rgb(255, 255, 255); opacity: 0.7; transition: all 0.2s ease 0s; }
+.r6934:hover { opacity: 1; }
+.i9983 { width: 35%; float: left; }
+.i9983 img { width: 100%; height: auto; }
+.i8328 { width: 100%; margin-top: 65px; margin-bottom: 40px; }
+.n1543 { width: 60%; float: right; color: rgb(255, 255, 255); font-size: 24px; margin-top: 85px; margin-left: 5%; overflow-wrap: break-word; }
+.p5213 a { position: absolute; margin: 0px 0px 0px -200px; left: 50%; bottom: 20px; background: transparent linear-gradient(to bottom, rgb(222, 69, 92) 0%, rgb(222, 69, 92) 13%, rgb(192, 31, 55) 76%, rgb(192, 31, 55) 100%) repeat scroll 0% 0%; color: rgb(224, 226, 230); padding: 0px 10px; text-transform: uppercase; line-height: 60px; display: block; text-indent: 0px; font-style: normal; font-family: Arial,Helvetica,sans-serif; width: 400px; height: 60px; opacity: 1; text-align: center; font-size: 26px; font-weight: 900; border-radius: 10px; transition: all 0.8s ease 0s; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8); box-sizing: border-box; }
+.p5213 a:hover { font-size: 28px; color: rgb(255, 255, 255) !important; text-shadow: 1px 1px 2px black, 0px 0px 1.5rem rgb(252, 248, 75) !important; }
+@media only screen and (max-width: 866px) {
+  .p5213 { width: 100%; left: 0px; margin-left: 0px; }
+}
+@media only screen and (max-width: 759px) {
+  .y3498 { font-size: 26px; }
+  .n1543 { font-size: 18px; }
+}
+@media only screen and (max-width: 605px) {
+  .i9983 { float: none; margin: auto; }
+  .n1543 { float: none; width: 100%; margin: 20px 0px 0px; }
+  .b4571 { width: 250px; margin-left: -135px; font-size: 18px; }
+  .y3498 { font-size: 24px; }
+  .r6934 { right: 0px; }
+}
+@media only screen and (max-width: 450px) {
+  .b4571 { width: 95% !important; left: 0px !important; display: block !important; margin-left: 2.5% !important; font-size: 22px !important; }
+}
+.y3498 p { padding: 0px; color: rgb(255, 255, 255); text-align: center; font-size: 28px; line-height: 25px; font-weight: bold; overflow-wrap: break-word; width: 90%; display: block; margin: auto; }
+.n1543 p { margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-size: 24px; }
+.js-date { color: rgb(255, 255, 255); font-size: 24px; font-weight: bold; }
+.js-timer { color: rgb(233, 33, 79); animation: 2s ease-out 0s normal none infinite running blur; font-style: italic; text-shadow: 1px 1px 2px black, 0px 0px 1em rgb(93, 137, 193); display: flex; width: 300px; height: 100px; background-color: rgb(44, 48, 59); line-height: 77px; border-radius: 15px; text-align: center; box-sizing: border-box; padding: 0px 50px; box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75); margin: auto; }
+@keyframes blur {
+0% { text-shadow: 1px 1px 2px black, 0px 0px 1em rgb(93, 137, 193), 0px 0px 100px rgb(255, 255, 255), 0px 0px 25px rgb(255, 255, 255), 0px 0px 25px rgb(255, 255, 255), 0px 0px 25px rgb(255, 255, 255), 0px 0px 25px rgb(255, 255, 255), 0px 0px 25px rgb(255, 255, 255), 0px 0px 25px rgb(255, 255, 255), 0px 0px 50px rgb(255, 255, 255), 0px 0px 50px rgb(255, 255, 255), 0px 0px 50px rgb(255, 206, 68), 0px 0px 150px rgb(255, 206, 68), 0px 10px 100px rgb(255, 206, 68), 0px 10px 100px rgb(255, 206, 68), 0px 10px 100px rgb(255, 206, 68), 0px 10px 100px rgb(255, 206, 68), 0px -10px 100px rgb(255, 206, 68), 0px -10px 100px rgb(255, 206, 68); }
+}
+.minute, .second { position: relative; display: inline-block; border: 3px solid white; width: 70px; height: 70px; border-radius: 50%; line-height: 50px; text-align: center; font-size: 37px; }
+.colon { padding: 0px 9px; display: inline-block; font-size: 40px; }
+.minute::after { position: absolute; content: "минут"; bottom: -10px; font-size: 12px; display: block; width: 100%; color: white; }
+.second::after { position: absolute; content: "секунд"; bottom: -10px; font-size: 12px; display: block; width: 100%; color: white; }
